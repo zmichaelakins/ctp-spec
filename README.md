@@ -1,56 +1,31 @@
-# Cognitive Transport Protocol (CTP)
-## CTP v1.0 — Frozen Reference Specification
+Cognitive Transport Protocol (CTP) — Frozen Reference Specification
 
-The Cognitive Transport Protocol (CTP) defines a Layer-8 control standard for regulating information flow between AI systems and human users.
+This repository contains the authoritative reference specification for the Cognitive Transport Protocol (CTP).
 
-CTP addresses a structural mismatch in modern AI–human interaction: AI systems optimize for throughput and coherence, while humans operate under constrained cognitive bandwidth and variable precision. Without regulation, this mismatch produces predictable overload, degraded oversight, and delayed intervention.
+CTP is a behavior-level control standard designed to preserve meaningful human oversight, recoverability, and auditability in AI systems under sustained operational load. It defines control variables, thresholds, and actions that systems must implement to remain compliant under load.
 
-This repository contains the frozen v1.0 reference specification for CTP.
+This repository holds the **frozen v1.0 reference specification**, as realized in **Regulator version 3.0**. The PDF in this repo (`CTP_v1.0_Technical_Standard_Specification.pdf`) is the normative artifact.
 
----
+For architectural context, risk analysis, and governance framing, see the corresponding white papers on the official website:
 
-## Status
+- White Paper I — Foundations of the Cognitive Transport Protocol  
+- White Paper II — Systemic Risk and Enterprise Failure Under Load  
+- Macro Context Addendum — Compliance-by-Construction and AI Governance
 
-- **Specification:** Frozen (v1.0)
-- **Scope:** Standards-track reference
-- **Change policy:** No breaking changes; future work occurs only in explicitly versioned successors
+This README is the entry point; the specification PDF is the authoritative technical definition.
 
----
+Status:
+- Specification: Frozen v1.0
+- Implementation link: Regulator version 3.0
+- Scope: Standards-track reference
+- Change policy: No breaking changes in v1.x; future work in successor versions
 
-## Contents
+Contents:
+- The normative specification (PDF)
+- Optional reference materials or examples
 
-- `/spec/` — CTP v1.0 Technical Standard Specification (**authoritative**)
-- `/reference/` — Non-normative reference material (including minimal implementations)
+Licensing:
+CTP v1.0 is released free for educational use. All rights reserved outside educational contexts unless explicitly granted.
 
----
-
-## Licensing
-
-CTP v1.0 is released **free for educational and research use**.  
-All rights reserved outside educational contexts unless explicitly granted.
-
----
-
-## Canonical Reference
-
-Website: https://www.regulator-ai.com/layer-8-ctp
-
----
-
-## Appendix A — Minimal Proof (Non-Normative)
-
-This repository includes a 22-line reference implementation that demonstrates the minimal control law required to stabilize human–AI interaction under bounded human cognitive bandwidth.
-
-The implementation is intentionally compact. Its purpose is not performance optimization, UX design, or feature completeness, but to demonstrate that stability emerges from control dynamics, not from interface complexity, heuristics, or behavioral nudges (e.g., “take a break” logic).
-
-The code illustrates:
-
-- Precision-weighted error accumulation under finite human bandwidth
-- A truncation mechanism that collapses overload and restores stability
-- Why unregulated systems exhibit runaway distress dynamics
-
-This reference implementation is **non-normative and illustrative only**.
-
-The normative definition of the system, requirements, and guarantees are specified in the **CTP v1.0 specification**, whose canonical control dynamics are defined by the **Regulator v3.0 control model**.
-
-The minimal size of this example is deliberate: it demonstrates that regulation is a property of the control law itself, not of scale, UI design, or system complexity.
+Canonical reference:
+Official publications and downloads available on the CTP Publications page of the website.
