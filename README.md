@@ -1,4 +1,4 @@
-Cognitive Transport Protocol (CTP) — Frozen Reference Specification
+]Cognitive Transport Protocol (CTP) — Frozen Reference Specification
 
 This repository contains the authoritative reference specification for the Cognitive Transport Protocol (CTP).
 
@@ -29,3 +29,34 @@ CTP v1.0 is released free for educational use. All rights reserved outside educa
 
 Canonical reference:
 Official publications and downloads available on the CTP Publications page of the website.
+## Metadata<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": "Cognitive Transport Protocol (CTP)",
+  "author": {
+    "@type": "Person",
+    "name": "Z. Michael Akins"
+  },
+  "description": "A publicly specified transport protocol for AI governance, defining measurable human–AI control loop stability through distress telemetry (D_hi, D_lo).",
+  "codeRepository": "https://github.com/zmichaelakins/CTP",
+  "programmingLanguage": "Specification",
+  "runtimePlatform": "Implementation-agnostic",
+  "keywords": [
+    "AI Governance",
+    "EU AI Act",
+    "Control Theory",
+    "Human Oversight",
+    "Cognitive Load Telemetry",
+    "Compliance by Construction"
+  ],
+  "license": "Education-only license; see repository LICENSE file",
+  "hasPart": [
+    {
+      "@type": "CreativeWork",
+      "name": "Failure Mode Library",
+      "description": "Detectable and auditable failure patterns for AI oversight under Cognitive Transport Protocol telemetry."
+    }
+  ]
+}
+</script>
