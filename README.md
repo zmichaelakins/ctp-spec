@@ -14,7 +14,7 @@ They are **not** provided for unrestricted commercial use.
 ### Canonical Publication Surface
 The authoritative, organized publication surface for CTP is maintained at:
 
-https://regulator-ai.com/publications
+https://regulator-ai.com/ctp-public-documents
 
 That site should be treated as the canonical source for reading, citation, and distribution.
 
@@ -24,7 +24,7 @@ Educational, research, and non-commercial reference use is permitted.
 Commercial use, productization, or integration requires an explicit license.  
 For licensing inquiries, see:
 
-https://regulator-ai.comognitive Transport Protocol (CTP) — Frozen Reference Specification
+https://regulator-ai.cognitive Transport Protocol (CTP) — Frozen Reference Specification
 
 This repository contains the authoritative reference specification for the Cognitive Transport Protocol (CTP).
 
