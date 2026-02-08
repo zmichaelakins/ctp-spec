@@ -1,4 +1,30 @@
-]Cognitive Transport Protocol (CTP) — Frozen Reference Specification
+Cognitive Transport Protocol 
+
+## Reference Publications & Use
+
+This repository includes reference materials related to the **Cognitive Transport Protocol (CTP)**.
+
+These materials are provided for:
+- Educational and research reference
+- Standards discussion and evaluation
+- Prior-art and timestamped disclosure
+
+They are **not** provided for unrestricted commercial use.
+
+### Canonical Publication Surface
+The authoritative, organized publication surface for CTP is maintained at:
+
+https://regulator-ai.com/publications
+
+That site should be treated as the canonical source for reading, citation, and distribution.
+
+### Licensing & Commercial Use
+Educational, research, and non-commercial reference use is permitted.
+
+Commercial use, productization, or integration requires an explicit license.  
+For licensing inquiries, see:
+
+https://regulator-ai.comognitive Transport Protocol (CTP) — Frozen Reference Specification
 
 This repository contains the authoritative reference specification for the Cognitive Transport Protocol (CTP).
 
@@ -60,3 +86,30 @@ Official publications and downloads available on the CTP Publications page of th
   ]
 }
 </script>
+---
+
+## Reference Publications & Use
+
+This repository includes reference materials related to the **Cognitive Transport Protocol (CTP)**.
+
+These materials are provided for:
+- Educational and research reference
+- Standards discussion and evaluation
+- Prior-art and timestamped disclosure
+
+They are **not** provided for unrestricted commercial use.
+
+### Canonical Publication Surface
+The authoritative, organized publication surface for CTP is maintained at:
+
+https://regulator-ai.com/publications
+
+That site should be treated as the canonical source for reading, citation, and distribution.
+
+### Licensing & Commercial Use
+Educational, research, and non-commercial reference use is permitted.
+
+Commercial use, productization, or integration requires an explicit license.  
+For licensing inquiries, see:
+
+https://regulator-ai.com
