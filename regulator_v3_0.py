@@ -1,3 +1,19 @@
+""""""
+Regulator v3.0 — Non-Normative Reference Implementation
+Cognitive Transport Protocol (CTP) v1.0
+
+STATUS:
+- Illustrative only
+- Non-normative
+- NOT a compliance definition
+- NOT required for conformance
+
+CONFORMANCE NOTICE:
+All normative requirements, invariants, thresholds, and compliance claims
+are defined exclusively in the CTP v1.0 Technical Standard Specification.
+This file is provided solely to illustrate one possible interpretation
+of the protocol semantics and MUST NOT be used for certification,
+audit, or regulatory assessment.
 """
 Regulator v3.0 — Non-Normative Reference Implementation
 Cognitive Transport Protocol (CTP) v1.0
