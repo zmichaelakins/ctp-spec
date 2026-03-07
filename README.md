@@ -3,7 +3,7 @@
 
 ## Overview
 
-The Cognitive Transport Protocol™ (CTP) is a protocol-level governance architecture designed to regulate information throughput between AI systems and human operators.
+The Cognitive Transport Protocol™ (CTP) is a protocol-level governance architecture that regulates information throughput between AI systems and human operators.
 
 CTP operates as a supervisory control layer rather than an application, model, or software product. Similar to how network transport protocols regulate data flow across heterogeneous systems, CTP establishes deterministic oversight conditions governing how AI-driven processes interact with human decision-makers and organizational infrastructure.
 
@@ -17,11 +17,11 @@ CTP provides a structured supervisory boundary that keeps AI-assisted environmen
 
 When organizations acquire or merge with AI-enabled companies, previously independent systems begin interacting within a shared operational environment.
 
-As the number of agents, models, and workflows increases, the number of potential interaction pathways can grow combinatorially. Without a supervisory control layer, this interaction density can create compounding operational and governance risks.
+As the number of agents, models, and automated workflows increases, the number of potential interaction pathways can grow combinatorially. Without a supervisory control layer, this interaction density can introduce compounding operational and governance risks.
 
 Common integration risks include:
 
-• Emergent behavioral feedback loops between AI systems  
+• Emergent feedback loops between AI systems  
 • Loss of clear supervisory boundaries across organizational systems  
 • Reduced auditability of automated decision pathways  
 • Governance breakdown during high-speed operational interactions  
@@ -33,15 +33,15 @@ The protocol establishes deterministic supervisory mediation so that AI-driven p
 This makes CTP particularly relevant for:
 
 • M&A technical diligence  
-• enterprise AI integration  
-• regulated operational environments  
-• governance and risk management programs  
+• Enterprise AI integration  
+• Regulated operational environments  
+• Governance and risk management programs  
 
 ---
 
 ## Conceptual Architecture
 
-CTP defines a supervisory mediation boundary through which interactions between AI systems, software infrastructure, and human operators are evaluated.
+CTP defines a supervisory mediation boundary through which interactions between AI systems, enterprise software infrastructure, and human operators are evaluated.
 
 Key architectural principles include:
 
@@ -49,12 +49,34 @@ Key architectural principles include:
 A control surface where interactions between AI systems, tools, and human operators are evaluated before execution.
 
 **Deterministic Oversight Loop**  
-A non-evaluative control cycle that monitors system interactions and preserves operational stability under increasing interaction load.
+A non-evaluative control cycle that monitors system interactions and preserves operational stability as interaction density increases.
 
 **Protocol-Level Governance Layer**  
 CTP functions as a governance layer above existing AI systems and enterprise infrastructure, providing consistent supervisory structure across heterogeneous technology environments.
 
 CTP does not prescribe specific models, vendors, or implementation frameworks. It defines how interactions are coordinated and supervised within complex AI-assisted operational systems.
+
+---
+
+## What CTP Is
+
+• A deterministic oversight architecture for AI-integrated environments  
+• A protocol-level governance structure for AI–human interaction  
+• An implementation-agnostic supervisory framework  
+• A system designed to preserve auditability and operational stability in complex AI environments
+
+---
+
+## What CTP Is Not
+
+CTP is not:
+
+• An AI model  
+• A software product or SaaS platform  
+• A monitoring dashboard  
+• A diagnostic or psychological assessment system
+
+CTP governs interaction structure and supervisory conditions rather than the behavior of individual models.
 
 ---
 
@@ -71,13 +93,13 @@ Contents include:
 • M&A integration and risk-management context  
 • Illustrative diagrams and explanatory materials  
 
-These materials are intended to provide a public reference for understanding the role of CTP within AI governance and enterprise integration environments.
+These materials provide a public reference for understanding the role of CTP within AI governance and enterprise integration environments.
 
 ---
 
 ## Implementation Notice
 
-The enforcement mechanisms, operational calibration methods, and control kernel that implement deterministic supervisory containment are proprietary and are **not included in this repository**.
+The enforcement mechanisms, operational calibration methods, and control kernel that implement deterministic supervisory containment are proprietary and **not included in this repository**.
 
 This repository intentionally limits disclosure to conceptual architecture and governance principles.
 
@@ -116,3 +138,4 @@ For inquiries regarding collaboration or licensing, please contact the project m
 ---
 
 *Cognitive Transport Protocol™ (CTP) is a project of Regulator AI Global, Inc.*
+
