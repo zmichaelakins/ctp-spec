@@ -1,97 +1,137 @@
-# Cognitive Transport Protocol (CTP)
-
-**A deterministic control standard for AI–human information flow**
-
----
+# Cognitive Transport Protocol™ (CTP)
+Deterministic Supervisory Containment for AI System Integration
 
 ## Overview
 
-The **Cognitive Transport Protocol (CTP)** is a protocol-level specification that governs **information throughput between AI systems and human operators**.
+The Cognitive Transport Protocol (CTP) is a standards-grade control architecture governing information flow between AI systems and human operators.
 
-CTP operates as a **control layer**, not an application or model.  
-It is analogous to how TCP governs network transport without dictating application behavior.
+CTP introduces a **deterministic supervisory boundary** that evaluates cross-system interactions before execution. The protocol stabilizes high-intensity AI environments by enforcing explicit control invariants, recovery semantics, and auditable decision pathways.
 
-The protocol is designed to prevent **nonlinear cognitive overload and delayed recovery failure** in high-intensity AI-assisted environments by enforcing explicit load boundaries, recovery semantics, and auditability.
-
-This repository contains the **public, frozen reference materials** for CTP.
-## What CTP Is
-
-- A **standards-grade protocol specification**
-- **Deterministic and normative** (not probabilistic, not ML-based)
-- Focused on **throughput regulation, recovery enforcement, and safety invariants**
-- **Implementation-agnostic** by design
-- Suitable for:
-  - AI oversight systems
-  - Human-in-the-loop control
-  - Safety-critical or fatigue-sensitive workflows
-  - Governance, audit, and compliance contexts
-
-CTP does **not** infer mental states, diagnose conditions, optimize productivity, or perform personalization.
+CTP is implementation-agnostic and functions as a **control layer**, similar to how TCP governs network transport without dictating application behavior.
 
 ---
 
-## What CTP Is Not
+# Strategic Focus: AI System Integration During M&A
 
-CTP is **not**:
+Modern acquisitions increasingly involve organizations that operate autonomous AI systems.
 
-- A product or SaaS offering
-- A medical, diagnostic, or therapeutic system
-- A behavioral optimization framework
-- A machine-learning model
-- A promise of performance, outcomes, or automation
+During integration, previously independent agent populations begin interacting, often creating interaction pathways that scale quadratically:
 
-All claims are **structural and control-oriented**, not psychological or predictive.## Repository Contents
+\[
+E \approx n(n-1)/2
+\]
 
-This repository intentionally separates **normative material** from **illustrative examples**.
+Without supervisory mediation, these new interaction pathways can produce unstable system behavior, operational disruption, and regulatory exposure.
 
-### Normative / Authoritative
-
-- **RFC-CTP-2026-01**  
-  Formal protocol specification (RFC-style).  
-  This document is the **authoritative reference**.
-
-- **CTP v1.0 Technical Specification**  
-  Standards-grade elaboration of protocol semantics and invariants.
-
-- **CTP Publication Package**  
-  Supporting publication and disclosure materials.
-
-### Non-Normative / Illustrative
-
-- `/examples/`  
-  Conceptual and educational examples only.  
-  These are **not required** for conformance.
-
-- `regulator_v3_0.py`  
-  A **non-normative reference implementation** provided for illustration.  
-  It is **not** authoritative, required, or complete.
-
-- Diagrams and visual aids  
-  Provided for clarity, not formal definition.## Conformance and Implementation
-
-- **Conformance is defined solely by the specification**, not by example code.
-- Implementers are free to design independent systems that conform to the protocol.
-- No implementation details, architectures, or services are implied or required.
+CTP addresses this integration risk by introducing a **deterministic mediation boundary** between systems.
 
 ---
 
-## Licensing and IP
+# Deterministic Supervisory Containment Architecture
 
-- All specifications and materials are **© Regulator AI Global Inc.**
-- This repository is published as a **defensive and standards disclosure**.
-- No patent licenses, service commitments, or warranties are granted by publication.
-- Reference code and examples are explicitly **non-normative**.## Status
+Deterministic gating prevents unbounded interaction growth and stabilizes integration.
 
-- **Protocol status:** Frozen public reference
-- **Versioning:** RFC-style
-- **Change policy:** Backward-compatible clarifications only
+![Five-Layer Deterministic Supervisory Containment Stack](/diagrams/FIG1_FiveLayerStack.png)
 
-Future work may occur in **separate, private, or derivative repositories**.
+![Deterministic Finite State Machine (FSM) - State Transitions](/diagrams/FIG2_FSM.png)
+
+![Cryptographic Actuation Deadlock Gate - Block Diagram](/diagrams/FIG3_DeadlockGate.png)
+
+![Immutable Hash-Chained Audit Log & Deterministic Replay Engine](/diagrams/FIG4_AuditLog.png)
 
 ---
 
-## Contact
+## Supervisory Mediation Boundary
 
-For standards, governance, or licensing inquiries:
+CTP establishes a supervisory boundary that evaluates **all cross-system interactions**.
 
-**Regulator AI Global Inc.**
+This boundary:
+
+- Prevents uncontrolled interaction growth  
+- Enforces human oversight requirements  
+- Stabilizes AI system integration after acquisition  
+
+---
+
+# Repository Contents
+
+Materials are separated into **normative (authoritative)** and **non-normative (illustrative)** artifacts.
+
+## Normative / Authoritative
+
+- **RFC-CTP-2026-01** — Formal RFC-style protocol specification  
+- **CTP v1.0 Technical Specification** — Protocol semantics and invariants  
+- **CTP Publication Package** — Supporting materials  
+- **Patent Overview** — Provisional patent excerpts (definitions and background)
+
+## Non-Normative / Illustrative
+
+These materials help explain the protocol but are **not required for conformance**.
+
+- **/examples/** — conceptual demonstrations  
+- **regulator_v3_0.py** — reference implementation  
+- **Diagrams and visual aids**
+
+---
+
+# Repository Structure
+
+The repository is organized around four artifacts used during AI integration.
+
+```
+/spec
+Protocol specification and control invariants
+
+/compliance
+Regulatory alignment documentation
+(EU AI Act Article 14, NIST RMF, ISO 42001)
+
+/reference
+Reference implementation illustrating gateway mediation
+
+/integration
+AI M&A integration playbook and deployment guidance
+```
+
+---
+
+# M&A Integration Playbook
+
+CTP provides a structured process for integrating AI systems during acquisitions.
+
+### Phase 1 — Technical Due Diligence
+- Map AI interaction topology
+- Estimate interaction density: \(E \approx n(n-1)/2\)
+- Identify high-risk interaction pathways
+
+### Phase 2 — Controlled Integration
+- Deploy mediation boundary
+- Configure conservative stability thresholds (\(\Theta_{crit}\))
+- Enable deterministic interaction gating
+
+### Phase 3 — Stabilization
+- Monitor interaction telemetry
+- Tune thresholds
+- Expand mediation coverage
+
+Download:  
+[/integration/Playbook1.0.pdf](/integration/Playbook1.0.pdf)
+
+---
+
+# Deterministic Audit & Regulatory Evidence
+
+Each supervisory decision produces an immutable audit record.
+
+```json
+audit_entry = {
+  "agent_states": [S_i, S_j],
+  "interaction_weight": "w(e(i,j))",
+  "supervisory_outcome": "ALLOW | BLOCK | DEFER | RECOVERY",
+  "context_parameters": {...},
+  "timestamp": "T_unix",
+  "signature": "HMAC-SHA256(entry, K_system)"
+}
+```
+
+These logs allow auditors and regulators to deterministically reconstruct supervisory decisions.
