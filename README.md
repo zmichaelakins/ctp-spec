@@ -1,9 +1,9 @@
-# Cognitive Transport Protocol™ (CTP)
+# Cognitive Trademark Protocol™ (CTP)
 *A deterministic oversight architecture for AI system integration.*
 
 ## Overview
 
-The Cognitive Transport Protocol™ (CTP) is a protocol-level governance architecture that regulates information throughput between AI systems and human operators.
+The Cognitive Trademark Protocol™ (CTP) is a protocol-level governance architecture that regulates information throughput between AI systems and human operators.
 
 CTP operates as a supervisory control layer rather than an application, model, or software product. Similar to how network transport protocols regulate data flow across heterogeneous systems, CTP establishes deterministic oversight conditions governing how AI-driven processes interact with human decision-makers and organizational infrastructure.
 
@@ -63,7 +63,7 @@ CTP does not prescribe specific models, vendors, or implementation frameworks. I
 • A deterministic oversight architecture for AI-integrated environments  
 • A protocol-level governance structure for AI–human interaction  
 • An implementation-agnostic supervisory framework  
-• A system designed to preserve auditability and operational stability in complex AI environments
+• A system designed to preserve auditability and operational stability in complex AI environments  
 
 ---
 
@@ -74,7 +74,7 @@ CTP is not:
 • An AI model  
 • A software product or SaaS platform  
 • A monitoring dashboard  
-• A diagnostic or psychological assessment system
+• A diagnostic or psychological assessment system  
 
 CTP governs interaction structure and supervisory conditions rather than the behavior of individual models.
 
@@ -82,7 +82,7 @@ CTP governs interaction structure and supervisory conditions rather than the beh
 
 ## Repository Scope
 
-This repository contains the **public conceptual specification** for the Cognitive Transport Protocol™.
+This repository contains the **public conceptual specification** for the Cognitive Trademark Protocol™.
 
 Materials included here focus on high-level protocol architecture and governance framing.
 
@@ -97,45 +97,19 @@ These materials provide a public reference for understanding the role of CTP wit
 
 ---
 
-## Implementation Notice
+## Disclaimer
 
-The enforcement mechanisms, operational calibration methods, and control kernel that implement deterministic supervisory containment are proprietary and **not included in this repository**.
+The Cognitive Trademark Protocol™ (CTP) is a conceptual and architectural framework.  
+This repository provides high-level descriptive materials only.
 
-This repository intentionally limits disclosure to conceptual architecture and governance principles.
+No source code, enforcement mechanisms, threshold logic, or implementation-specific details are disclosed.
 
-Detailed implementation specifications may be available through licensing, research collaboration, or enterprise partnership.
+Nothing in this repository constitutes:
+• a software offering  
+• a deployed system  
+• a performance guarantee  
+• legal, regulatory, or compliance advice  
 
----
+All implementation, validation, and regulatory alignment considerations remain the responsibility of the adopting organization.
 
-## Intended Use Cases
-
-CTP is designed for environments where AI systems operate within high-consequence or high-interaction operational contexts.
-
-Representative use cases include:
-
-• Post-merger integration of AI platforms and agent ecosystems  
-• Regulated decision workflows in finance, infrastructure, and enterprise operations  
-• Governance programs requiring auditable AI interaction oversight  
-• Enterprise environments integrating multiple AI-enabled tools and automation systems  
-
----
-
-## Status
-
-U.S. provisional patent filed.  
-Core enforcement architecture is proprietary and not included in this repository.
-
----
-
-## Licensing and Access
-
-Materials in this repository may be used for educational, architectural planning, and governance design purposes.
-
-Access to detailed implementation specifications or enterprise deployment guidance may be available through partnership or licensing.
-
-For inquiries regarding collaboration or licensing, please contact the project maintainers.
-
----
-
-*Cognitive Transport Protocol™ (CTP) is a project of Regulator AI Global, Inc.*
-
+For additional information, technical discussions, or access to non-public materials, inquiries must be directed through the appropriate contact channels.
